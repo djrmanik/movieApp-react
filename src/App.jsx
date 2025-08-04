@@ -1,7 +1,7 @@
 // Components
 const Card = ({ title }) => {
   return (
-    <div>
+    <div className="card">
       <h2>{title}</h2>
     </div>
   )
@@ -9,9 +9,7 @@ const Card = ({ title }) => {
 
 const App = () => {
   return (
-    <div>
-      <h2>Functional Arrow Component</h2>
-
+    <div className="card-container">
       <Card title="Star Wars" />
       <Card title="One Piece"/>
       <Card title="John Wick"/>
